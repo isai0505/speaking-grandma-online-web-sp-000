@@ -1,5 +1,5 @@
 # Write a speak_to_grandma method.
-
+require "pry"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
@@ -13,6 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(speak)
+  binding.pry
   if "I love you grandma!" == .upcase
   return "I love you too pumpkin!".upcase
   elsif "Hi Nana, how are you?"
