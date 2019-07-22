@@ -14,7 +14,7 @@ require "pry"
 
 def speak_to_grandma(speak)
   binding.pry
-  if "I love you grandma!"
+  if speak == speak.downcase
   return "I love you too pumpkin!".upcase
   elsif "Hi Nana, how are you?"
   return "HUH?! SPEAK UP, SONNY!"
